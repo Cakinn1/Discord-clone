@@ -3,3 +3,8 @@
 @tailwind utilities;
 
 
+@layer components {
+    .link {
+        @apply cursor-pointer font-semibold text-[24] text-white hover:underline
+    }
+}
